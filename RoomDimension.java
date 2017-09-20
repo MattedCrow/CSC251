@@ -21,7 +21,7 @@ public class RoomDimension {
     public double getArea() {
         double area = length * width;
         
-        area = finalArea;
+        finalArea = area;
         return area;
     }
     
